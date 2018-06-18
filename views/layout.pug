@@ -1,0 +1,112 @@
+html
+	head
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		link(rel='stylesheet' href='bootstrap.min.css')
+		link(rel='stylesheet' href='animate.css')
+		link(rel="stylesheet" type="text/css" href="style.css" )
+		script(src='jquery.min.js')
+		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js')
+
+	body
+		div#navbar
+			ul
+				li#brand
+					img.animated.JackInTheBox(src='logo-Recovered.png')
+				li
+					a(href="/") Home
+				li
+					a(href="about-us") About Us
+				li
+					a(href="#") Services
+				li.dropdown 
+					a(class="dropbtn" href="#") Projects
+					div.dropdown-content
+						a(href="login") item1
+						a(href="login") item2
+						a(href="login") item3
+		block content
+		block scripts
+
+		
+		
+
+
+
+
+
+
+		footer#footer(style="height:5%;width:100%;background-color:#d1d1d1; bottom:0px;position: fixed; left: 0")
+			div#signature
+				b BK Techouse LTD
+				p Urubuto Software
+			div#socialMedia.te
+				a.ml-2(href='https://twitter.com/bktechouse')
+					img.inline(src='twitter.png' style='width:30px;height:30px')
+				a.ml-2(href='https://www.facebook.com/BKTecHouseltd')
+					img.inline(src='facebook.png' style='width:30px;height:30px')
+				a.ml-2(href='https://www.instagram.com/bktechouseltd.rw/')
+					img.inline(src='instagram.png' style='width:30px;height:30px')
+				// these are not showing up
+
+					// left BK Techouse Ltd - Urubuto Software signature
+					//right: Privacy, terms of use, FAQ
+     
+
+
+		
+
+		//- nav.navbar.navbar-expand-lg.navbar-light.bg.light
+		//- 	div(class="collapse navbar-collapse dropdown" )
+		//- 		ul(class="navbar-nav mr-auto")
+		//- 			li(class="nav-item active")
+		//- 				a(class="nav-link text-primary" href= "#" ) Home
+		//- 			li(class="nav-item active")
+		//- 				a(class="nav-link text-primary" href= "#" ) About Us
+		//- 			li(class="nav-item dropdown")
+		//- 				a(class="nav-link dropdown-toggle text-primary" href="#" data-toggle="dropdown") drop
+		//- 				ul(class="dropdown-menu")
+		//- 					li
+		//- 						a(href="#") Item 1
+		//- 					li
+		//- 						a(href="#") Item 1
+
+
+		//- div.container(style='height:10%')
+		//- 	nav(class="navbar navbar-expand-lg navbar-dark navbar-fixed-top")
+		//- 		div
+		//- 			img.animated.JackInTheBox(src='logo-Recovered.png' style='width:50px;height:50px')
+		//- 		a(class="navbar-brand text-primary" href="/") Urubuto
+		//- 		button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+		//- 			span(class="navbar-toggler-icon")
+		//- 		div(class="collapse navbar-collapse" id="navbarSupportedContent")
+		//- 			ul(class="navbar-nav mr-auto")
+		//- 				li(class="nav-item active text-primary")
+		//- 					a(class="nav-link text-primary" href="/" ) Home 
+		//- 				li(class="nav-item")
+		//- 					a(class="nav-link text-primary" href="#") About Us
+		//- 				li(class="nav-item")
+		//- 					a(class="nav-link-disabled" href="#")
+
+
+
+	//- div(style="position:fixed; top:0px")
+	//- 	nav.navbar.navbar-expand-lg.navbar-light()
+	//- 	a(href='/', role='button', style='color:DodgerBLue', ari-pressed='true', size='100% 100%')  URUBUTO
+	//- 		button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
+	//- 		span.navbaggler-icon
+	//- 		#navbarNavDropdown.collapse.navbar-collapse
+	//- 		ul.navbar-nav
+	//- 			li.nav-item.active
+	//- 				a.nav-link.bold(href='/') Home
+	//- 			li.nav-item
+	//- 				a.nav-link.bold(href='about-us') About Us
+	//- 			li.nav-item
+	//- 				a.nav-link(href='login') Login
+	//- 			li.nav-item.dropdown
+	//- 				a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Projects
+	//- 			.dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+	//- 				a.dropdown-item(href='#') Parents
+	//- 				a.dropdown-item(href='#') Students
+	//- 				a.dropdown-item(href='#') Teachers
+	//- 			li.nav-item
+	//- 				a.nav-link.bold(href='services') Services

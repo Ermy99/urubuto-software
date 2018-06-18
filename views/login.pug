@@ -1,0 +1,36 @@
+extends ./layout
+block content
+  div(style='height:100%')
+    div.shadow.p-3(style="height:89%;background:linear-gradient(rgb(246,198,144),rgb(236,143,115))")
+
+      div.container.d-flex.justify-content-center.align-items-center(style='height:80%')
+        div.card.shadow(style="width: 30rem;")
+          div.card-body
+            div.d-flex.justify-content-center.align-items-center
+              img.animated.flip(src='user2.png' style='width:50px;height:50px')
+            div.mt-3(class="form-group")
+              input.border-bottom(style="border:none" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email")
+              small(id="emailHelp" class="form-text text-muted")
+              input.border-bottom(style="border:none" type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password")
+            div.d-flex.justify-content-center
+              a.card-link(href="forgot-password")
+                img.d-inline(src='settings.png' style='width:20px;height:20px')
+                p.d-inline Forgot password?
+            div.d-flex.justify-content-center.align-items-center
+              button.mt-3(type="submit" class="btn btn-dark")
+                span.d-inline Login
+      
+    footer(class="navbar" style="height:11%;width:100%;background-color:#f9f9f9")
+      div(class="container align-items-center")
+        span(class="text-muted") Urubuto
+         small designed by cedrick
+        span 
+         b PoweredBy
+         small BK_techHouse
+        div
+          a.ml-2(href='https://twitter.com/bktechouse')
+            img.inline(src='twitter.png' style='width:30px;height:30px')
+          a.ml-2(href='https://www.facebook.com/BKTecHouseltd')
+            img.inline(src='facebook.png' style='width:30px;height:30px')
+          a.ml-2(href='https://www.instagram.com/bktechouseltd.rw/')
+            img.inline(src='instagram.png' style='width:30px;height:30px')
